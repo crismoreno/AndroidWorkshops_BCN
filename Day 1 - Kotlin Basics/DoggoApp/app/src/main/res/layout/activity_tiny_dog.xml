@@ -6,5 +6,11 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         tools:context=".TinyDogActivity">
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="741dp"
+                android:src="@drawable/tiny_dog_norfolk"
+
+                android:background="@color/colorPrimaryDark"/>
 
 </LinearLayout>

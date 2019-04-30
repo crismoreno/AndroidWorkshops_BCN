@@ -9,4 +9,15 @@
         android:background="@drawable/background"
         tools:context=".MainActivity">
 
+    <Button
+            android:text="@string/huge_dog_button"
+            android:layout_width="match_parent"
+            android:onClick="viewHugeDog"
+            android:layout_height="wrap_content" android:id="@+id/button" android:textSize="20sp"/>
+    <Button
+            android:text="@string/tiny_dog_button"
+            android:layout_width="match_parent"
+            android:layout_marginTop="16dp"
+            android:onClick="viewTinyDog"
+            android:layout_height="wrap_content" android:id="@+id/button2"/>
 </LinearLayout>

@@ -18,4 +18,8 @@ class MainActivity : AppCompatActivity() {
     fun viewHugeDog(v: View) {
         startActivity(Intent(this, HugeDogActivity::class.java))
     }
+
+    fun viewTinyDog(v: View) {
+        startActivity(Intent(this, TinyDogActivity::class.java))
+    }
 }
